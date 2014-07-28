@@ -107,6 +107,6 @@ class Generator(object):
     
 if __name__ == "__main__":
     ddl = Generator()
-    ddl.build_ddl("Structure.yaml")
+    ddl.build_ddl("example.yaml")
     ddl.dump('output.sql')
 
